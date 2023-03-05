@@ -1,0 +1,135 @@
+* {
+    font-family: Mulish, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 24px 100px;
+    background-color: #fff
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: inherit;
+    margin: 0 16px;
+}
+
+.nav-links a:hover {
+    cursor: pointer;
+    color: tomato;
+    transition: .3s ease-in-out;
+}
+
+.nav-brand a {
+    text-decoration: none;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: rgb(40, 40, 98);
+}
+
+.nav-brand a:hover {
+    cursor: pointer;
+    color: tomato;
+    transition: .3s ease-in-out;
+}
+
+.page-title-container {
+    font-family: Roboto;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px 100px 100px 100px;
+    background-color: rgb(70, 104, 159, .5);
+}
+
+.about-section {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   padding: 60px;
+
+}
+
+.portfolio-section h2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio-content img {
+    height: 200px;
+    margin: 8px 16px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+    margin-bottom: 0;
+}
+
+.contact-section h2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-items-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    margin-top: 0;
+}
+
+.contact-item {
+    width: 300px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.footer {
+    align-items: center;
+    padding: 10px 50px;
+    background-color: rgba(119, 136, 153, 0.2);
+}
+
+.footer p {
+    text-align: center;
+    padding: 24px 100px;
+    letter-spacing: .8px;
+}
